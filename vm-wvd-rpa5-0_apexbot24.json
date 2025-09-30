@@ -1,0 +1,63 @@
+{
+    "MaxRetryNumber" : 0,
+    "MaxConsecutiveSystemExceptions" : 0,
+    "ExScreenshotsFolderPath" : "Exceptions_Screenshots",
+    "LogMessage_GetTransactionData" : "Processing Transaction Number:",
+    "LogMessage_GetTransactionDataError" : "Error getting transaction data for Transaction Number:",
+    "LogMessage_Success": "Transaction Successful.",
+    "LogMessage_BusinessRuleException": "Business rule exception.",
+    "LogMessage_ApplicationException" : "The maximum number of consecutive system exceptions was reached.",
+    "RetryNumberGetTransactionItem" : 2,
+    "RetryNumberSetTransactionStatus" : 2,
+    "ShouldMarkJobAsFaulted": "FALSE",
+
+
+    "var_ChomeAPP": "chrome.exe",
+    "var_NotepadAPP" : "notepad.exe",
+    "var_ExcelAPP" : "EXCEL.EXE",
+    "var_SapAPP" :  "saplogon.exe",
+    "pth_Downloads" : "\\Downloads",
+    "pth_Input" : "\\Data\\Input",
+    "pth_Output" :  "\\Data\\Output",
+    "pth_Temp" : "\\Data\\Temp",
+	"pth_Temp2" : "\\Data\\Temp\\Upload",
+	"pth_Data" : "\\Data",
+    "pth_PythonScript" : "\\Data\\Input\\Scripts_Python",
+    "pth_HTMLScript" : "\\Data\\Input\\Scripts_HTML",
+    "pth_VBScript" : "\\Data\\Input\\Scripts_VB",
+    "pth_SAPLogon": "C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui",
+    "pth_SAPReports" : "\\Documents\\SAP\\SAP GUI\\",
+    "var_ProcessName": "NOMINAS",
+    "var_Area" :"17 - NOMINAS",
+	"var_SubArea": "Nóminas Novedades GT",
+    "var_BitacoraName" : "Bitácora Nóminas Novedades",
+    "var_MailPort": 587,
+    "Var_MailServer":"smtp-mail.outlook.com",
+
+    "Credentials": {
+        "cred_Bizagi" : "Bizagi_Credentials",
+		"cred_SAP" : "SAP_Credentials"
+    },
+
+    "Assets" : {
+		"lst_Activities": "Activities_List",
+		"var_BizagiDomain": "Bizagi_Domain",
+		"url_Bizagi" : "Bizagi_URL",
+		"var_BotName": "Bot_Name",
+		"var_EmailsNotification" : "Emails_Notification",
+		"lst_Services": "Services_List",
+		"var_User": "User_Bizagi",
+		"var_BizagiDomain": "Bizagi_Domain",
+		"Queue_Verificar" : "Queue_Verificar",
+		"SAP_Mandante" : "SAP_Mandante",
+		"SAP_Ambiente" : "SAP_Ambiente",
+		"SAP_Conexion" : "SAP_Conexion",
+		"SAP_Language" : "SAP_Language",
+		"Row_FileMax" : "Row_Max",
+		"Process" : "Process"
+    },
+
+    "Comments": {
+        "var_OrchestratorFolder" : "Orchestrator_Folder"
+    }
+}
